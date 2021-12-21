@@ -52,6 +52,8 @@ module DogBiscuits
     def base_properties
       %i[title
          alternative_title
+         abstract
+         access_rights
          creator
          contributor
          description
