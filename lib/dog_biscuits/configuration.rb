@@ -53,7 +53,7 @@ module DogBiscuits
       %i[title
          alternative_title
          abstract
-         access_rights
+         access_right
          creator
          contributor
          description
