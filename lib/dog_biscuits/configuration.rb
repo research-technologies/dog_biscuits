@@ -57,6 +57,7 @@ module DogBiscuits
          description
          keyword
          license
+         rights_notes
          rights_statement
          publisher
          date_created
