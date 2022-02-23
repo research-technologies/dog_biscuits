@@ -5,7 +5,6 @@ module DogBiscuits
     extend ActiveSupport::Concern
 
     include DogBiscuits::Abstract # added
-    include DogBiscuits::AccessRights
     include DogBiscuits::DateAvailable
     include DogBiscuits::ContentVersion # added
     include DogBiscuits::DateAccepted # added

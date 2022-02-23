@@ -194,6 +194,10 @@ module DogBiscuits
           dc_access_rights: {
             label: 'Access rights'
           },
+          # Singularized and promoted from Dataset to Basic Metadata in line with version Hyrax 3.x
+          access_right: {
+            label: 'Access rights'
+          },
           department: {
             label: 'Department, School or Faculty'
           },
@@ -489,6 +493,9 @@ module DogBiscuits
             render_as: :rights_statement,
             label: 'Rights statement'
           },
+          rights_notes: {
+            label: 'Rights notes'
+          },
           series: {
             schema_org: {
               property: "isPartOf",
@@ -523,6 +530,12 @@ module DogBiscuits
             },
             label: 'Title',
             help_text: "A name to aid in identifying a work."
+          },
+          alternative_title: {
+            label: 'Alternative title',
+            schema_org: {
+              property: "name"
+            },
           },
           volume_number: {
             schema_org: {

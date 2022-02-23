@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 module DogBiscuits
-  module AccessRights
+  module AccessRight
     extend ActiveSupport::Concern
 
     included do
       # There is an access_rights property in Hyrax, hence the dc_
-      property :dc_access_rights, predicate: ::RDF::Vocab::DC.accessRights do |index|
+      property :access_right, predicate: ::RDF::Vocab::DC.accessRights do |index|
         index.as :stored_searchable
       end
     end

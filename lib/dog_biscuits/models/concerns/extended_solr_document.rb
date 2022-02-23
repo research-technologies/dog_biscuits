@@ -52,8 +52,10 @@ module DogBiscuits
     included do
       attribute :abstract, Solr::Array, solr_name('abstract')
       attribute :access_provided_by, Solr::Array, solr_name('access_provided_by')
+      # access_right
       attribute :advisor, Solr::Array, solr_name('advisor')
       attribute :alt, Solr::Array, solr_name('alt')
+      #alternative_title
       attribute :awarding_institution, Solr::Array, solr_name('awarding_institution')
       # based_near and based_near
       attribute :content_version, Solr::Array, solr_name('content_version')
@@ -119,6 +121,7 @@ module DogBiscuits
       attribute :refereed, Solr::Array, solr_name('refereed')
       attribute :related_url, Solr::Array, solr_name('related_url')
       # resource_type
+      # rights_notes
       # rights_statement
       attribute :series, Solr::Array, solr_name('series')
       # source

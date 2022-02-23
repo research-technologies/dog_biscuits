@@ -153,7 +153,8 @@ module DogBiscuits
 
   autoload_under 'models/concerns/metadata_properties/dc' do
     autoload :Abstract
-    autoload :AccessRights
+    autoload :AccessRight
+    autoload :AlternativeTitle
     autoload :BibliographicCitation
     autoload :Creator
     autoload :Contributor
@@ -172,6 +173,7 @@ module DogBiscuits
     autoload :ResourceType
     autoload :Rights
     autoload :RightsHolder
+    autoload :RightsNotes
     autoload :Source
     autoload :Subject
     # autoload :Title # part of CoreMetadata
