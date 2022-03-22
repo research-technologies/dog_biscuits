@@ -13,6 +13,7 @@ module DogBiscuits
 
     # Common dc properties
     # dc:title is included in Core Metadata
+    include DogBiscuits::Abstract # BasicMetadata
     include DogBiscuits::AccessRight #BasicMetadata
     include DogBiscuits::AlternativeTitle # BasicMetadata
     include DogBiscuits::BibliographicCitation # BasicMetadata
